@@ -41,9 +41,9 @@ path_to_enlightenment.rb:27
 You then open up the about_asserts.rb file in your text editor and look at line 10:
 
 # We shall contemplate truth by testing reality, via asserts.
-```def test_assert_truth
-  assert false # This should be true
-end```
+`def test_assert_truth'
+  'assert false # This should be true'
+'end`
 
 You then change false to true and run the tests again. You should get a new error.
 
