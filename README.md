@@ -40,7 +40,7 @@ path_to_enlightenment.rb:27
 
 You then open up the about_asserts.rb file in your text editor and look at line 10:
 
-# We shall contemplate truth by testing reality, via asserts.
+## We shall contemplate truth by testing reality, via asserts.
 ```ruby
 def test_assert_truth
   assert false # This should be true
