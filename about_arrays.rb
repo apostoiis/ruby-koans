@@ -51,7 +51,7 @@ class AboutArrays < Neo::Koan
     assert_equal [1,2,3,4], (1...5).to_a
   end
 
-  def test_slicing_with_ranges
+  def test_slicing_with_ranges     ####################
     array = [:peanut, :butter, :and, :jelly]
 
     assert_equal [:peanut, :butter, :and], array[0..2]
